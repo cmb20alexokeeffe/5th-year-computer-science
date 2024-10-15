@@ -1,0 +1,40 @@
+#quesstion 1
+#Student name = alex.
+#This calculator can only add & subtract.
+num1 = 9
+num2 = 5
+num3 = num1 - num2
+print('Do you want me to (a)dd or (s)ubtract?')
+choice = input()
+if choice == 'a':
+    print(num1, "+",  num2, "=", num3)
+if choice == 'A':
+    print(num1, "+",  num2, "=", num3)
+elif choice == 's':
+    print(num1, "-",  num2, "=", num3)
+elif choice == 'S':
+    print(num1, "-", num2, "=", num3)
+else :
+        print("invalid answer")
+    
+name = input("enter your name:")
+print("hello", name, "welcome to the addition and subtraction calculator")
+
+#question 2
+#student name : Alex O Keeffe
+print("welcome to temperature alert system")
+temp = input("enter a temperature value in degrees Celsius:")
+if temp <= "19" :
+    print("too cold, turn up heating")
+if temp == "20" :
+    print("temperature is just right")
+if temp == "21" :
+    print("temperature is just right")
+if temp == "22" :
+    print("temperature is just right")
+if temp == "23" :
+    print("temperature is just right")
+if temp == "24" :
+    print("temperature is just right")
+if temp >= "25" :
+    print("too warm turn down heating")
