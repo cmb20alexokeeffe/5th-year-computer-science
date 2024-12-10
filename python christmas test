@@ -1,0 +1,28 @@
+# Question 16(a) 
+# Examination Name: Alex O Keeffe
+
+print("Welcome to the driving licence eligibility checker!")
+name =input("what is your name :")
+age = int(input("What age are you? : "))
+print("you entered", age)
+
+
+if(age <= 16):
+     print(name, "you are not entitled to apply for a driving licence")
+elif (age >= 75):
+    print(name, "you are entitled to apply for a three-year driving licence")
+else:
+    print(name, "You are entitled to apply for a driving licence.")
+
+
+
+
+# Question 16(b) 
+# Examination Name: Alex O Keeffe
+
+
+print("welcome to split bill calculator")
+bill = int(input("how much is the bill?:"))
+people = int(input("how many people?:"))
+answer = bill/people
+print("you each owe:", answer)
